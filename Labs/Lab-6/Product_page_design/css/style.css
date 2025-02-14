@@ -1,0 +1,20 @@
+#top_bar{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+}
+
+.icon i{
+    line-height: 30px;
+}
+.icon p {
+    display: flex;
+    flex-direction: row;
+    width: 67px;
+    float: left;
+    line-height: 30px;
+}
+#hero_section{
+    height: 500px;
+}
