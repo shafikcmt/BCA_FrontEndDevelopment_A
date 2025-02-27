@@ -1,0 +1,113 @@
+.tc{
+    text-align: center;
+}
+.tr{
+    text-align: right;
+}
+.tl{
+    text-align: left;
+}
+.tj{
+    text-align: justify;
+    line-height: 30px; /* Space between line*/
+    word-spacing: 10px; /* Space between word*/
+    letter-spacing: 5px; /* Space between letter*/
+    text-indent: 100px; /* Space first line*/
+}
+.tdu{
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 5px;
+    text-decoration: 2px solid overline green;
+    text-decoration: 2px solid line-through green;
+}
+.tt{
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+}
+.tsh{
+    text-shadow: 2px 2px 5px blue;
+}
+.row{
+    width: 900px;
+    margin: 0 auto;
+}
+.box1{
+    height: 150px;
+    width: 20%;
+    background-color: red;
+    float: left;
+}
+.box2{
+    height: 150px;
+    width: 20%;
+    background-color: green;
+    float: left;
+    
+}
+
+.box3{
+    height: 150px;
+    width: 20%;
+    background-color: blue;
+    float: left;
+}
+.box4{
+    height: 150px;
+    width: 20%;
+    background-color: skyblue;
+    float: left;
+}
+.chess-board{
+    width: 800px;
+    height: 900px;
+    margin: 0 auto;
+    background-color: skyblue;
+    padding: 20px;
+}
+.white-box{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    float: left;
+}
+.black-box{
+    height: 100px;
+    width: 100px;
+    background-color: black; 
+    float: left;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+.grid-container{
+    width: 600px;
+    background-color: blueviolet;
+    padding: 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100px 200px 80px 100px;
+    grid-template-columns: 50% 100px 100px;
+    grid-template-columns: 50% 100px 25%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(2, 150px) 1fr;
+    grid-template-rows: 200px 300px 100px;
+}
+.items{
+    padding: 10px;
+    border: 1px solid blanchedalmond;
+}
+.items1{background-color: gray;}
+.items2{background-color: pink;}
+.items3{background-color: red;}
+.items4{background-color: blue;}
+.items5{background-color: skyblue;}
+.items6{background-color: tomato;}
+.items7{background-color: yellow;}
+.items8{background-color: greenyellow;}
+.items9{background-color: yellowgreen;}
