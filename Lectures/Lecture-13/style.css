@@ -1,0 +1,49 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: skyblue;
+    text-align: center;
+    line-height: 200px;
+    margin: 0 auto;
+    /* animation-name: myAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-direction: alternate;
+    animation-direction: alternate;
+    animation-direction: alternate-reverse; */
+
+    animation: myAnimation 2s infinite alternate;
+}
+
+@keyframes myAnimation{
+    /* from{
+        border-radius: 0px;
+        background-color: black;
+        color: white;
+    }
+    to{
+        border-radius: 50%;
+        background-color: yellow;
+        color: black;
+    } */
+    0%{
+        border-radius: 0px;
+        background-color: black;
+        color: white;
+    }
+    25%{
+        background-color: blue;
+        color: white;
+    }
+    50%{
+        background-color: yellow;
+        color: black;
+    }
+    100%{
+        border-radius: 50%;
+        background-color: red;
+        color: white;
+    }
+}

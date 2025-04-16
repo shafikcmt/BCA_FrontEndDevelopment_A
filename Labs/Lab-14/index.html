@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #displayBoard{
+            padding: 20px;
+            background-color: skyblue;
+            border: 2px solid pink;
+            margin: 0 auto;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            text-align: center;
+            line-height: 100px;
+            font-size: 30px;
+            float: left;
+        }
+        .white{
+            background-color: white;
+            color: black;
+        }
+        .black{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <input type="text" id="boardsize">
+        <button onclick="createBoard()">Create Board</button>
+    </center>
+    <hr>
+    <div id="displayBoard"></div>
+    <script src="main.js"></script>
+</body>
+</html>
